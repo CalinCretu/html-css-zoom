@@ -20,46 +20,80 @@
     display: flex;
     flex-grow: 1;
     overflow: hidden;
-    padding: 20px;
     justify-content: center;
 }
 
 .main-container {
-    border: 2px solid yellow;
-    align-items: center;
-    
-    
+    display: flex;
+    margin: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1500px;
+
+
 }
 .container {
+    flex-direction: row;
     display: flex;
+    margin: 2px;
+
+}
+
+.container-aside {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    border: 2px solid blue;
-  }
+}
+
+.image {
+    
+}
 
 img{
-    margin: 3px 2px;
-    width: 200px;
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.debug .app__toolbar {
-    color: white;
     
-    border: 2px solid white;
+    width: 205px;
+}
+
+
+
+.app__toolbar {
+    background-color: #222222;
+    color: white;
+}
+
+.aside-icons {
+    font-size: 30px;
+}
+
+.left-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mid-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-options {
+    background-color: #4A4A4A;
+    color: red;
+    display: flex;
+
+}
+
+
+li {
+    margin: 3px;
+}
+
+ul, ol, menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
 }
