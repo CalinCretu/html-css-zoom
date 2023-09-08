@@ -58,7 +58,7 @@ span {
     background-color: rgba(57, 73, 88, 0.5);
     color: white;
     position: absolute;
-    bottom:5px;
+    bottom:10px;
     left: 0px;
 }
 
@@ -66,10 +66,11 @@ span {
 .app__toolbar {
     background-color: #222222;
     color: white;
+    font-size: 10px;
 }
 
 .aside-icons {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .left-options {
