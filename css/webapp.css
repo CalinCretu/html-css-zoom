@@ -36,7 +36,7 @@
     flex-direction: row;
     display: flex;
     margin: 2px;
-
+    position: relative;
 }
 
 .container-aside {
@@ -47,14 +47,20 @@
 }
 
 .image {
-    
+
 }
 
 img{
-    
     width: 205px;
 }
 
+span {
+    background-color: rgba(57, 73, 88, 0.5);
+    color: white;
+    position: absolute;
+    bottom:5px;
+    left: 0px;
+}
 
 
 .app__toolbar {
